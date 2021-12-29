@@ -151,7 +151,7 @@ print(a)
 print(b)
 '''
 
-class Person:
+'''class Person:
     def __init__(self, name, age):
         self.name = name
         self.age = age
@@ -161,3 +161,5 @@ class Person:
         
 p1 = Person('홍길동', 22)
 p1.disp()
+'''
+

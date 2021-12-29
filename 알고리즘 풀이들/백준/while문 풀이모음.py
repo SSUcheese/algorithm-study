@@ -9,18 +9,19 @@ while True:
  '''   
     
 #1110번
-n = 0
-x = input()
-y = x
-while True:
-    first = str(int(x[0]) + int(x[1]))
-    first = first[0]
-    tenth = x[1]
-    x = tenth + first
-    n += 1
-    if int(x) == int(y):
-        break
-print(x)
 
-print("3" + "4")
+num = int(input())
+n = num
+count = 0
+
+while True:
+    a = num // 10
+    b = num % 10
+    c = (a+b) % 10
+    num = (b * 10) + c
+    
+    count += 1
+    if (num == n):
+        break
+print(count)
     
