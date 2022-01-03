@@ -83,3 +83,22 @@ for i in range(num):
         elif a[h] == 'X':
             score = 0
     print(total)'''
+
+
+#4344번
+'''
+repeat = int(input())
+
+for i in range(repeat):
+    count = 0
+    percent = 0
+    
+    a = list(map(int, input().split()))
+    b = (sum(a) - a[0])/(len(a) - 1)
+    
+    for s in range(1, len(a), 1):
+        if float(a[s]) > b:
+            count += 1    
+        percent = (count / (len(a) - 1)) * 100
+    print(f'{percent:.3f}%')
+    '''
