@@ -16,6 +16,7 @@ for i in range(0, len(num), 1):
     add += c
 print(add)'''   
 
+
 #10809번
 
 '''abc= 'abcdefghijklmnopqrstuvwxyz'
@@ -28,6 +29,7 @@ for i in abc:
     else:
         print(-1, end=' ')'''
         
+        
 #2675번
 
 '''repeat_num = int(input())
@@ -38,3 +40,26 @@ for i in range(repeat_num):
     for i in word1:
         print(f'{i*r1}', end='')
     print(end='\n')'''
+    
+    
+#1157번
+
+'''word = input()
+single_word = list(set(word))
+count1 = []
+
+for i in single_word:
+    num = word.count(i)
+    count1.append(num)
+    
+if count1.count(max(count1))>=2:
+    print("?")
+else:
+    print(single_word[(count1.index(max(count1)))].upper())'''
+    
+    
+#1152번
+
+'''word = list(map(str, input().split()))
+
+print(len(word))'''
