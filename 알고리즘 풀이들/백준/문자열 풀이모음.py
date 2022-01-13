@@ -63,3 +63,14 @@ else:
 '''word = list(map(str, input().split()))
 
 print(len(word))'''
+
+#2908번
+'''num1, num2 = map(str, input().split())
+
+num11 = num1[2] + num1[1] + num1[0]
+num22 = num2[::-1] #이 방식이 위에 방식보다 효율적이다
+
+if int(num11) > int(num22):
+    print(num11)
+else:
+    print(num22)'''
