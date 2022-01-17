@@ -74,3 +74,17 @@ if int(num11) > int(num22):
     print(num11)
 else:
     print(num22)'''
+
+#5622번
+dial = ['ABC', 'DEF', 'GHI', 'JKL', 'MNO', 'PQRS', 'TUV', 'WXYZ']
+
+#2941번
+
+'''alpha = ['c=','c-','dz=','d-','lj','nj','s=','z=']
+word = input()
+wordlen = len(word)
+for i in alpha:
+    if  i in word:
+        word = word.replace(i, 'a') #내용 바뀌면 word에 넣어서 저장했어야.. 안 했더니 내용 날아가서 답 안 나옴
+print(len(word))'''
+         
