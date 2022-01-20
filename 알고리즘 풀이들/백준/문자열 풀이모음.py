@@ -87,4 +87,7 @@ for i in alpha:
     if  i in word:
         word = word.replace(i, 'a') #내용 바뀌면 word에 넣어서 저장했어야.. 안 했더니 내용 날아가서 답 안 나옴
 print(len(word))'''
-         
+
+#1316번
+
+#아직 푸는중
