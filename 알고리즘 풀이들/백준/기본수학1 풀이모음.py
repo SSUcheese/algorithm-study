@@ -17,4 +17,11 @@ else:
 if c> b:
     print(int(a/(c-b)+1))
 else:
-    print(-1) '''
+    print(-1) ''' 
+    
+#2869번
+'''import math
+a, b, v = map(int, input().split())
+
+n = math.ceil((v - b) / (a - b))
+print(n)'''
